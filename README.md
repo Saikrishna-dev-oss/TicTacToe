@@ -59,5 +59,3 @@ If you're on **Linux/macOS**, replace it with `system("clear")` in the source co
 - Mangali Sai Krishna  
 - Geethanjali College of Engineering and Technology
 ```
-
----
