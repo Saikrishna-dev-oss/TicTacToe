@@ -1,11 +1,10 @@
-# TicTacToe
-Tic Tac Toe in C
+# 🎯 Tic Tac Toe in C
 
 A simple console-based Tic Tac Toe game written in C. Two players take turns marking spaces on a 3×3 grid until one wins or the game ends in a draw.
 
 ---
 
-## ✨Features
+## ✨ Features
 
 - Two-player mode  
 - Input validation for invalid and non-numeric entries  
@@ -15,31 +14,50 @@ A simple console-based Tic Tac Toe game written in C. Two players take turns mar
 
 ---
 
-## How to Run
+## 🛠️ How to Run
 
-### Compile the code:
+### ✅ Compile the code:
+```bash
 gcc main.c -o tictactoe
+```
 
-## Run the Executable
-./tictactoe     # Linux/macOS
-tictactoe.exe   # Windows
+### ▶️ Run the Executable:
+```bash
+./tictactoe       # Linux/macOS
+tictactoe.exe     # Windows
+```
 
-## Note: 
-This game uses system("cls") to clear the screen, which works on Windows. If you're on Linux/macOS, replace it with system("clear").
+---
+
+## ⚠️ Note
+
+This game uses `system("cls")` to clear the screen, which works on **Windows**.  
+If you're on **Linux/macOS**, replace it with `system("clear")` in the source code.
+
+---
 
 ## 🎮 Gameplay Instructions
-The board is labeled from 1 to 9.
-Player 1 uses X, Player 2 uses O.
-Players take turns to enter the number of the cell they want to mark.
-The game ends when:
-   One player has three marks in a row (win), or
-   All cells are filled without a winner (draw)
+
+- The board is labeled from **1 to 9**.
+- **Player 1** uses `X`, **Player 2** uses `O`.
+- Players take turns to enter the number of the cell they want to mark.
+- The game ends when:
+  - One player has **three marks in a row** (win), or
+  - All cells are filled without a winner (draw)
+
+---
 
 ## 🧱 Built With
-Language: C
-Platform: Console
 
-## 👤Author
--Mangali Sai Krishna
--Geethanjali College Of Engineering and Technology
+- **Language**: C  
+- **Platform**: Console
 
+---
+
+## 👤 Author
+
+- Mangali Sai Krishna  
+- Geethanjali College of Engineering and Technology
+```
+
+---
